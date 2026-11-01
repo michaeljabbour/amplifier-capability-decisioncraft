@@ -8,11 +8,11 @@ Pick the line for where you work. Each one sets up the tool and its skill.
 
 | Where you work | What to do |
 |---|---|
-| **A coding agent with a terminal** (Claude Code, Codex, Amplifier) | Paste: `Install the Decisioncraft tool from https://github.com/michaeljabbour/amplifier-smart-tool-decisioncraft by following its README, then run decisioncraft doctor` |
-| **Codex** (CLI or app) | Paste the prompt above, or run: `mkdir -p ~/.codex/skills/decisioncraft && curl -fsSL https://raw.githubusercontent.com/michaeljabbour/amplifier-smart-tool-decisioncraft/main/skills/decisioncraft/SKILL.md -o ~/.codex/skills/decisioncraft/SKILL.md`, then `codex mcp add decisioncraft -- decisioncraft mcp` (after the terminal install below). |
-| **Claude Desktop** | Download [decisioncraft.mcpb](https://github.com/michaeljabbour/amplifier-smart-tool-decisioncraft/releases/latest/download/decisioncraft.mcpb), double-click it, then choose Install. No key needed: Claude does the drawing, and the canvas opens right in the chat. |
-| **Portable skill with code execution** | Download the complete [decisioncraft-skill.zip](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/downloads/decisioncraft-skill.zip). Add its `decisioncraft` folder to a host that loads Agent Skills and runs Python. The library and references are included; skill mode needs no API key or network. |
-| **Your own terminal** | `uv tool install "amplifier-smart-tool-decisioncraft[smart,mcp] @ git+https://github.com/michaeljabbour/amplifier-smart-tool-decisioncraft"`, then `decisioncraft doctor` |
+| **A coding agent with a terminal** (Claude Code, Codex, Amplifier) | Paste: `Install the Decisioncraft tool from https://github.com/michaeljabbour/amplifier-capability-decisioncraft by following its README, then run decisioncraft doctor` |
+| **Codex** (CLI or app) | Paste the prompt above, or run: `mkdir -p ~/.codex/skills/decisioncraft && curl -fsSL https://raw.githubusercontent.com/michaeljabbour/amplifier-capability-decisioncraft/main/skills/decisioncraft/SKILL.md -o ~/.codex/skills/decisioncraft/SKILL.md`, then `codex mcp add decisioncraft -- decisioncraft mcp` (after the terminal install below). |
+| **Claude Desktop** | Download [decisioncraft.mcpb](https://github.com/michaeljabbour/amplifier-capability-decisioncraft/releases/latest/download/decisioncraft.mcpb), double-click it, then choose Install. No key needed: Claude does the drawing, and the canvas opens right in the chat. |
+| **Portable skill with code execution** | Download the complete [decisioncraft-skill.zip](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/downloads/decisioncraft-skill.zip). Add its `decisioncraft` folder to a host that loads Agent Skills and runs Python. The library and references are included; skill mode needs no API key or network. |
+| **Your own terminal** | `uv tool install "amplifier-smart-tool-decisioncraft[smart,mcp] @ git+https://github.com/michaeljabbour/amplifier-capability-decisioncraft"`, then `decisioncraft doctor` |
 
 In Claude Desktop, VS Code Copilot, Cursor and other hosts with MCP Apps, the canvas opens right
 in the chat. ChatGPT supports this only for MCP servers on the internet, not local ones. Chat apps
@@ -31,8 +31,8 @@ file with the examples and films. See [site build checks](site/README.md).
 After installing the native tool, open a complete fictional example from the public source:
 
 ```sh
-git clone https://github.com/michaeljabbour/amplifier-smart-tool-decisioncraft.git
-cd amplifier-smart-tool-decisioncraft
+git clone https://github.com/michaeljabbour/amplifier-capability-decisioncraft.git
+cd amplifier-capability-decisioncraft
 decisioncraft validate examples/engineering/model.json
 decisioncraft render examples/engineering/model.json --out first-canvas.html
 ```
@@ -53,7 +53,7 @@ question. For a choice, big or small, it helps at the right depth: a quick table
 few questions and a map, or a full team review. The result is one offline file that people can
 read without training.
 
-[![A footbridge decision in Planned view: the chain from source to outcome, each box marked, and tilted role-coloured sticky notes beside the boxes they question](docs/images/hero-notes.png)](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/engineering.html)
+[![A footbridge decision in Planned view: the chain from source to outcome, each box marked, and tilted role-coloured sticky notes beside the boxes they question](docs/images/hero-notes.png)](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/engineering.html)
 
 [![Watch the 90-second trailer: a repo becomes a map, every role leaves a note, what changes, scores and costs, ask the experts](docs/images/trailer-poster.jpg)](https://github.com/michaeljabbour/amplifier-smart-tool-decisioncraft/releases/download/v0.2.0/decisioncraft-trailer-16x9.mp4)
 
@@ -136,9 +136,9 @@ prompts; see [docs/HARNESS-TESTS.md](docs/HARNESS-TESTS.md).
 
 | | |
 |---|---|
-| [![What changes: one map with each box marked New, Changed or Goes away, and a walk through the changes](docs/images/gallery-what-changes.png)](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/engineering.html) **What changes.** One map, every box marked, with a walk through each change and before and after side by side. | [![Side by side: today and the plan for one journey in two panes, only the steps that change](docs/images/gallery-side-by-side.png)](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/medical.html) **Side by side.** One journey at a time, today and the plan in two panes that pan and zoom together. |
-| [![Scoring table: must-haves first, a calm heat map with each score written in, weighted totals](docs/images/gallery-scoring.png)](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/personal-car.html) **Scoring table.** Must-haves first, weights you can change live, and "what would change the winner". | [![Cost over time: a line per option over five years with numbered break-even points](docs/images/gallery-costs.png)](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/personal-car.html) **Cost over time.** Real cost per option over 1, 3 or 5 years, break-even points in words, and what-ifs. |
-| [![Ask the experts: a reviewer's rough note on a box with replies from each role](docs/images/gallery-ask-experts.png)](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/business.html) **Ask the experts.** Stick a rough note on any box; each role replies with a short view and a question. | **Also:** evidence beside every claim, gaps ranked by impact and effort, decisions with owners and due dates, dot-voting, merged reviews that show agreement and splits, "what changed since last time", and outcomes that feed back as evidence. |
+| [![What changes: one map with each box marked New, Changed or Goes away, and a walk through the changes](docs/images/gallery-what-changes.png)](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/engineering.html) **What changes.** One map, every box marked, with a walk through each change and before and after side by side. | [![Side by side: today and the plan for one journey in two panes, only the steps that change](docs/images/gallery-side-by-side.png)](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/medical.html) **Side by side.** One journey at a time, today and the plan in two panes that pan and zoom together. |
+| [![Scoring table: must-haves first, a calm heat map with each score written in, weighted totals](docs/images/gallery-scoring.png)](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/personal-car.html) **Scoring table.** Must-haves first, weights you can change live, and "what would change the winner". | [![Cost over time: a line per option over five years with numbered break-even points](docs/images/gallery-costs.png)](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/personal-car.html) **Cost over time.** Real cost per option over 1, 3 or 5 years, break-even points in words, and what-ifs. |
+| [![Ask the experts: a reviewer's rough note on a box with replies from each role](docs/images/gallery-ask-experts.png)](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/business.html) **Ask the experts.** Stick a rough note on any box; each role replies with a short view and a question. | **Also:** evidence beside every claim, gaps ranked by impact and effort, decisions with owners and due dates, dot-voting, merged reviews that show agreement and splits, "what changed since last time", and outcomes that feed back as evidence. |
 
 ## The examples
 
@@ -146,12 +146,12 @@ All names, quotes and figures are invented, except the cited public figures in t
 
 | Example | The question | Shows | Open it |
 |---|---|---|---|
-| [map](examples/bike-hire-map/) | How does a small bike hire app work today, and what is missing? Made by pointing `map --starter` at a made-up repo. | as-is / to-be journeys, gaps with stories, a note from every role | [canvas](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/bike-hire-map.html) |
-| [car](examples/personal-car/) | When the lease ends: keep, renew, buy new, buy used, or go car-free? | scoring table, cost over time with what-ifs, today and after, pre-mortem | [canvas](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/personal-car.html) |
-| [business](examples/business/) | Should a three-shop bakery offer a monthly box? Includes two reviews, rough notes and expert replies. | customer journey, service blueprint, decision chain | [canvas](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/business.html) |
-| [technical](examples/technical/) | Move file uploads to a new storage provider, change how uploads reach storage, or both? Includes an earlier version. | system journeys, opportunity tree, what changed | [canvas](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/technical.html) |
-| [engineering](examples/engineering/) | Repair, replace, or replace a footbridge with a wider one? | decision chain, system journeys, service blueprint | [canvas](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/engineering.html) |
-| [medical](examples/medical/) | How should a ward change the way it sends patients home, so fewer come back? **Not medical advice; no patient data.** | customer journey, service blueprint | [canvas](https://michaeljabbour.github.io/amplifier-smart-tool-decisioncraft/examples/medical.html) |
+| [map](examples/bike-hire-map/) | How does a small bike hire app work today, and what is missing? Made by pointing `map --starter` at a made-up repo. | as-is / to-be journeys, gaps with stories, a note from every role | [canvas](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/bike-hire-map.html) |
+| [car](examples/personal-car/) | When the lease ends: keep, renew, buy new, buy used, or go car-free? | scoring table, cost over time with what-ifs, today and after, pre-mortem | [canvas](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/personal-car.html) |
+| [business](examples/business/) | Should a three-shop bakery offer a monthly box? Includes two reviews, rough notes and expert replies. | customer journey, service blueprint, decision chain | [canvas](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/business.html) |
+| [technical](examples/technical/) | Move file uploads to a new storage provider, change how uploads reach storage, or both? Includes an earlier version. | system journeys, opportunity tree, what changed | [canvas](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/technical.html) |
+| [engineering](examples/engineering/) | Repair, replace, or replace a footbridge with a wider one? | decision chain, system journeys, service blueprint | [canvas](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/engineering.html) |
+| [medical](examples/medical/) | How should a ward change the way it sends patients home, so fewer come back? **Not medical advice; no patient data.** | customer journey, service blueprint | [canvas](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/medical.html) |
 
 `decisioncraft example NAME --open` copies any of them (`map`, `car`, `business`, `technical`,
 `engineering`, `medical`). Rebuild every output with `python3 scripts/build-examples.py`.
@@ -187,7 +187,7 @@ MIT. See [LICENSE](LICENSE).
 
 See the options, gaps and competing perspectives in one decision map.
 
-Read the [installation guide](docs/INSTALL.md) for the supported local path and [consolidation record](docs/CONSOLIDATION.md) for ownership and evidence limits. Canonical catalog name: **Decisioncraft**; repository: `amplifier-smart-tool-decisioncraft`.
+Read the [installation guide](docs/INSTALL.md) for the supported local path and [consolidation record](docs/CONSOLIDATION.md) for ownership and evidence limits. Canonical catalog name: **Decisioncraft**; repository: `amplifier-capability-decisioncraft`.
 
 ## Repository migration
 
