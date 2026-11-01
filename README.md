@@ -55,11 +55,11 @@ read without training.
 
 [![A footbridge decision in Planned view: the chain from source to outcome, each box marked, and tilted role-coloured sticky notes beside the boxes they question](docs/images/hero-notes.png)](https://michaeljabbour.github.io/amplifier-capability-decisioncraft/examples/engineering.html)
 
-[![Watch the 90-second trailer: a repo becomes a map, every role leaves a note, what changes, scores and costs, ask the experts](docs/images/trailer-poster.jpg)](https://github.com/michaeljabbour/amplifier-smart-tool-decisioncraft/releases/download/v0.2.0/decisioncraft-trailer-16x9.mp4)
+[![Watch the 90-second trailer: a repo becomes a map, every role leaves a note, what changes, scores and costs, ask the experts](docs/images/trailer-poster.jpg)](https://github.com/michaeljabbour/amplifier-capability-decisioncraft/releases/download/v0.2.0/decisioncraft-trailer-16x9.mp4)
 
 *Above, the footbridge example in Planned view with notes on the map; below it, the trailer.
-All examples are fictional. Watch the [90-second trailer](https://github.com/michaeljabbour/amplifier-smart-tool-decisioncraft/releases/download/v0.2.0/decisioncraft-trailer-16x9.mp4) (no sound needed;
-[vertical](https://github.com/michaeljabbour/amplifier-smart-tool-decisioncraft/releases/download/v0.2.0/decisioncraft-trailer-9x16.mp4), [square](https://github.com/michaeljabbour/amplifier-smart-tool-decisioncraft/releases/download/v0.2.0/decisioncraft-trailer-1x1.mp4)).*
+All examples are fictional. Watch the [90-second trailer](https://github.com/michaeljabbour/amplifier-capability-decisioncraft/releases/download/v0.2.0/decisioncraft-trailer-16x9.mp4) (no sound needed;
+[vertical](https://github.com/michaeljabbour/amplifier-capability-decisioncraft/releases/download/v0.2.0/decisioncraft-trailer-9x16.mp4), [square](https://github.com/michaeljabbour/amplifier-capability-decisioncraft/releases/download/v0.2.0/decisioncraft-trailer-1x1.mp4)).*
 
 ## Which model answers
 
