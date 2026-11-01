@@ -69,3 +69,7 @@ stdin is not a terminal. Over MCP (`decisioncraft mcp`) the same steps are
 `decisioncraft_map`, `decisioncraft_triage`, `decisioncraft_quick` and
 `decisioncraft_interview_next`, plus the prompts `map_this`, `decide`, `compare_options`, `what_could_go_wrong`, `regret_test` and
 `review_canvas`. See `docs/HOSTS.md` in the repository for MCP setup.
+
+## Optional coaching checkpoint
+
+Read [the local coaching guide](references/coaching-session.v1.md) only when the person asks for practice or optional session bookkeeping. Keep direct artifact production available; agree a small budget, preserve the baseline and stop on goal, user exit or no meaningful gain.
